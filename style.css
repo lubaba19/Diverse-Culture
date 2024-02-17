@@ -1,0 +1,245 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ background-color: lightcyan; 
+}
+
+/* style main picture */
+#diverse{
+  width: 170px;
+  height: 170px;
+  padding-left: 20px;
+  border-radius: 50%;
+  position: relative;
+  left: 65px;
+  top: 15px;
+ 
+}
+
+/* nav bar item(a) */
+.nav{
+  text-transform: uppercase;
+  text-decoration: none;
+  color:rgb(113, 4, 255);
+  font-size: 30px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 30px;
+  padding-right: 16px;
+  position: relative;
+  left: 210px;
+  top: 50px;
+  
+}
+
+#nav-bar{
+  background-color: rgb(94, 255, 215);
+}
+/* STYLE NAV BAR */
+.nav-item{
+  float: left;
+  display: inline;
+  padding: 10px;
+
+
+  }
+
+/* style main heading */
+#heading{
+  padding-top: 200px;
+  text-align: center;
+  font-size: 50px;
+ }
+ 
+ /* style the quote */
+#quote{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  font-size: 30px;
+}
+
+/* content (a) tags */
+.link{
+  text-decoration:none;
+  color: rgb(200, 0, 250);
+  
+}
+
+/* STYLE IMAGES */
+.image{
+  width:210px;
+  height:200px;
+  padding: 10px 10px 10px 20px;
+}
+
+/* content */
+.container{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 2em;
+}
+
+.item{
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  padding-right: 10px;  
+}
+
+/* content headings */
+.sub{
+  position: relative;
+  font-size: 30px;
+  padding: 10px 10px 10px 20px;
+  color: rgb(241, 91, 241);
+}
+
+/* content p tags */
+
+p{
+  position: relative;
+  font-size: 20px;
+  
+}
+
+/* sub heading of the cultures page */
+.page-heading{
+  padding: 20px;
+  padding-left: 40px;
+  color:rgb(8, 66, 226);
+  font-family: 'Zen Tokyo Zoo', cursive;
+  font-size: 40px;
+}
+
+/* content of culture page */
+.page-text{
+  padding-left:10px;
+  padding-right: 20px;
+  color: rgb(136, 50, 153);
+  font-size: 25px;
+
+}
+/* styling slideshow pictuers */
+.pics{
+  width: 1022px;
+  height: 522px;
+
+}
+/* container of slide show */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+/* auto hide the images */
+.mySlides{
+  display: none;
+}
+
+/* next previous button */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+/* position next button to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+/* previous and next button hover style */
+.prev:hover, .next:hover{
+  background-color: grey;
+}
+
+/* text of cpations */
+.text{
+  color:blue;
+  padding : 8px 12px;
+  bottom: 8px;
+  font-size: 30px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  background-color: lightgrey;
+}
+
+ /* Styleing of numbers */
+.numbertext{
+  color:brown;
+  font-size: 25px;
+  padding: 8px 12px;
+  top: -40px;
+  width: 100%;
+  position: absolute;
+}
+
+/* dot styling */
+.dot {
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  } 
+
+.active, .dot:hover{
+  background-color: #717171;
+}
+
+/* sub heading of slideshow */
+#subs{
+text-align: center;
+padding: 20px;
+color:blueviolet;
+font-size: 50px;
+}
+
+/* about page about myself heading */
+.page-heading1{
+  padding-top:220px;
+  padding-left: 40px;
+  color:rgb(8, 66, 226);
+  font-family: 'Zen Tokyo Zoo', cursive;
+  font-size: 40px;
+}
+
+/* about page myself paragraphs */
+.page-text1{
+   padding-left:10px;
+  padding-right: 20px;
+  padding-top: 10px;
+  color: rgb(136, 50, 153);
+ font-size: 25px;
+}
+
+/* contact info */
+.ol{
+  font-size: 25px;
+  padding: 5px;
+  padding-left: 10px;
+  color: rgb(59, 120, 233);
+}
+
+/* end of the page */
+.end{
+  padding-top:50px;
+}
